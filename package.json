@@ -1,9 +1,10 @@
 {
   "name": "port.quest",
   "version": "0.0.1",
-  "description": "Source code for port.quest, a selection of quick port tools for developers. ",
+  "description": "Source code for port.quest, a selection of quick port tools for developers.",
   "main": "quest.js",
   "scripts": {
+    "start": "node quest.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/tycrek/port.quest/issues"
   },
-  "homepage": "https://github.com/tycrek/port.quest#readme"
+  "homepage": "https://github.com/tycrek/port.quest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "nocache": "^3.0.1"
+  }
 }
